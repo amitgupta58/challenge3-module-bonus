@@ -1,6 +1,6 @@
 variable "location" {
   type        = string
-  defaut = "us-east-1"
+  default = "us-east-1"
 
   validation {
     condition = contains(
