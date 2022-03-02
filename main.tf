@@ -14,5 +14,5 @@ provider "aws" {
 
 module "aws-s3-challenge3Module" {
   source  = "app.terraform.io/amitgupta58/aws-s3-challenge3Module/provider"
-  version = "1.0.0"
+  version = "2.0.1"
 }
